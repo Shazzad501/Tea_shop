@@ -1,0 +1,12 @@
+/* google font link start */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+/* google font link end */
+
+/* universal tag selector style start */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:"Platypi", serif;
+}
+/* universal tag selector style close */
