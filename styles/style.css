@@ -306,3 +306,90 @@ color:#FF7400;
   color: var(--secondery-color);
 }
 /* Service section style end */
+
+
+/* Client section style start */
+.client{
+  display: flex;
+  background: linear-gradient(270.00deg, rgb(255, 0, 0),rgb(255, 137, 56));
+  background-blend-mode: overlay;
+  border-radius: 10px;
+}
+.client-content{
+  width: 50%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-image: url(../assets/bg-cup.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+}
+.client-content div{
+  max-width: 440px;
+  max-height: 341px;
+  position: absolute;
+  top: 150px;
+  left:120px;
+}
+.client-content div h2{
+  font-weight: 800;
+  font-size: 3rem;
+  color: white;
+}
+.client-content div p{
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: white;
+}
+.client-content div button{
+  background: white;
+  border-radius: 30px;
+}
+.client-content div button span{
+  background: linear-gradient(270.00deg, rgb(255, 0, 0),rgb(255, 137, 56));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  
+}
+.client-speak{
+  width:50%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.client-speak .client-speak-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.client-speak .client-speak-div div{
+  max-width: 433px;
+  max-height: 233px;
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  position: relative;
+  border-radius: 10px;
+}
+.client-speak div h4{
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top:10px;
+}
+.client-speak div p{
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--secondery-color);
+}
+.client-speak div img{
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+/* Client section style end */
