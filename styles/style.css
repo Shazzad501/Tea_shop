@@ -238,3 +238,39 @@ color:#FF7400;
   color: var(--secondery-color);
 }
 /* the great tea style end */
+
+/* Good cup of tea section style start */
+.good-tea{
+  display: flex;
+}
+.good-tea-content{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content:start;
+  align-items: start;
+}
+.good-tea-content h2 {
+  font-weight: 700;
+  font-size: 3.3rem;
+  margin-bottom: 20px;
+
+}
+.good-tea-content p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+
+}
+.good-tea-img{
+  width:50%;
+  background:  linear-gradient(180deg,#F8F1E7, #E7E2DE);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.good-tea-img img{
+  max-width:100%;
+}
+/* Good cup of tea section style end */
