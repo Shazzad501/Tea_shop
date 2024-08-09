@@ -393,3 +393,50 @@ color:#FF7400;
   left: -15px;
 }
 /* Client section style end */
+
+/* Blog section style start */
+.blog-content{
+  text-align: center;
+}
+.blog-content h2{
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.blog-content p{
+font-size: 1.1rem;
+font-weight: 500;
+color: var(--secondery-color);
+}
+.blog-card{
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  gap:40px;
+}
+.blog-card div{
+  width: 33%;
+  padding: 20px;
+  border-radius: 13px;
+  background-color: whitesmoke;
+}
+.blog-card div img {
+  width: 100%;
+}
+.blog-card div p{
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--secondery-color);
+  margin-top: 10px;
+}
+.blog-card div h4{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top:10px ;
+}
+.blog-card div h6 {
+  font-size:1.2rem;
+  font-weight: 800;
+  margin-top:10px;
+}
+/* Blog section style end */
