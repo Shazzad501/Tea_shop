@@ -274,3 +274,35 @@ color:#FF7400;
   max-width:100%;
 }
 /* Good cup of tea section style end */
+
+/* Service section style start */
+.service{
+  display: flex;
+}
+.service > div{
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+}
+.service > div .service-icon{
+  font-size: 3rem;
+  font-weight: 800;
+  color: #9BA685;
+  margin-right: 15px;
+}
+#pay{
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #9BA685; 
+}
+.service > div .service-content h4{
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+.service > div .service-content p{
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--secondery-color);
+}
+/* Service section style end */
